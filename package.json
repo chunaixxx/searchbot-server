@@ -1,0 +1,22 @@
+{
+    "name": "searchbot-server",
+    "version": "1.0.0",
+    "description": "",
+    "main": "app.js",
+    "type": "module",
+    "scripts": {
+        "start": "cross-env node --experimental-specifier-resolution=node app.js",
+        "dev": "cross-env NODE_APP_INSTANCE=dev nodemon --experimental-specifier-resolution=node app.js "
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "cross-env": "^7.0.3",
+        "nodemon": "^2.0.15"
+    },
+    "dependencies": {
+        "config": "^3.3.7",
+        "ws": "^8.5.0"
+    }
+}
